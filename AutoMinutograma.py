@@ -10,7 +10,7 @@ password1 = "nnnn"
 def ejecutar_tarea():
     print("Versión de Selenium:", selenium.__version__)
     options = webdriver.FirefoxOptions()
-    options.binary_location = "C:/Users/ECM8408I/Desktop/Autominutograma/geckodriver.exe"
+    options.binary_location = "C:/Users/nnn/Desktop/Autominutograma/geckodriver.exe"
     driver = webdriver.Firefox(options=options)
     
     driver.maximize_window()
